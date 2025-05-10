@@ -1,0 +1,77 @@
+/* General Page Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e5eba3;
+    font-family: 'Arial', sans-serif;
+    flex-direction: column;
+}
+
+/* Main Container */
+.container {
+    text-align: center;
+}
+
+/* Header Text */
+h1 {
+    font-size: 3em;
+    color: #d32f2f;
+    margin-bottom: 20px;
+}
+
+/* Button Container */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Yes Button */
+.yes {
+    font-size: 1.5em;
+    padding: 12px 24px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.yes:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+/* No Button */
+.no {
+    font-size: 1.5em;
+    padding: 12px 24px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.no:hover {
+    background-color: #d32f2f;
+    transform: scale(1.1);
+}
+
+/* GIF Styling */
+.gif {
+    margin-top: 30px;
+}
+
+.gif img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
